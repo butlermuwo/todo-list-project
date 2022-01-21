@@ -7,11 +7,28 @@
       src="https://kit.fontawesome.com/fe6dec7cca.js"
       crossorigin="anonymous"
     ></script>
-    <title>My Todo List</title>
+    <title>My Todos</title>
   </head>
 
   <body>
-    <div class="list"></div>
-    <h1>Todo list</h1>
+    <div class="list">
+      <div class="row title">
+        <p>Today's To Do</p>
+        <i class="fas fa-sync"></i>
+      </div>
+      <div class="row">
+        <input
+          class="add-input"
+          id="todo-input"
+          type="text"
+          placeholder="Add to your list"
+        />
+        <i class="fas fa-plus add" id="rotate"></i>
+      </div>
+      <div class="todos-list" id="todos-list"></div>
+      <div class="row clear">
+        <p id="completed">Clear All Completed</p>
+      </div>
+    </div>
   </body>
 </html>
