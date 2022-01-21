@@ -38,7 +38,7 @@ This project has been  finished and deployed.
 ![screenshot (41)](https://github.com/butlermuwo/todo-list-project/blob/list-structure/screenshot/Screenshot%20(41).png)
 
 ## Live Demo link
-https://todo-list-project-butler.netlify.app/
+https://cocky-hugle-0c1e65.netlify.app/
 
 ## Issues
 
