@@ -1,20 +1,20 @@
-import "./index.css";
+import './index.css';
 import {
   createTodo,
   showEditInput,
   toggleComplete,
   updateTodo,
   loadTodo,
-} from "./modules/crud.js";
+} from './modules/crud.js';
 
-const list = document.getElementById("todos-list");
-const addInput = document.getElementById("todo-input");
-const addBtn = document.getElementById("rotate");
+const list = document.getElementById('todos-list');
+const addInput = document.getElementById('todo-input');
+const addBtn = document.getElementById('rotate');
 
-list.addEventListener("click", (event) => {
+list.addEventListener('click', (event) => {
   event.stopPropagation();
   switch (event.target.tagName) {
-    case "P":
+    case 'P':
       showEditInput(event.target);
       break;
 
@@ -22,31 +22,31 @@ list.addEventListener("click", (event) => {
   }
 });
 
-list.addEventListener("change", (event) => {
-  if (event.target.tagName === "INPUT" && event.target.type === "checkbox") {
+list.addEventListener('change', (event) => {
+  if (event.target.tagName === 'INPUT' && event.target.type === 'checkbox') {
     toggleComplete(event.target);
   }
 });
 
-list.addEventListener("keypress", (event) => {
+list.addEventListener('keypress', (event) => {
   if (
-    event.target.tagName === "INPUT" &&
-    event.target.type === "text" &&
-    event.key === "Enter"
+    event.target.tagName === 'INPUT'
+    && event.target.type === 'text'
+    && event.key === 'Enter'
   ) {
     updateTodo();
   }
 });
 
-document.addEventListener("click", updateTodo());
+document.addEventListener('click', updateTodo());
 
-addBtn.addEventListener("click", (event) => {
+addBtn.addEventListener('click', (event) => {
   event.stopPropagation();
   createTodo();
 });
 
-addInput.addEventListener("keypress", (event) => {
-  if (event.key === "Enter") {
+addInput.addEventListener('keypress', (event) => {
+  if (event.key === 'Enter') {
     createTodo();
   }
 });
