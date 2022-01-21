@@ -12,15 +12,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Mwapsam/To-Do-List.git"
+        "url": "https://github.com/butlermuwo/todo-list-project.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Mwapsam/To-Do-List/issues"
+        "url": "https://github.com/butlermuwo/todo-list-project/issues"
     },
-    "homepage": "https://mwapsam.github.io/To-Do-List/",
+    "homepage": "https://butlermuwo.github.io/todo-list-project/",
     "devDependencies": {
         "@babel/plugin-transform-modules-commonjs": "^7.16.8",
         "babel-eslint": "^10.1.0",
