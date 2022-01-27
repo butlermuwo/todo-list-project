@@ -52,5 +52,8 @@ describe('testing remove function', () => {
     expect(removeTask(tasks, 0).length).toBe(currentLength - 1);
   });
 
- 
-  
+  test('Should delete two items from localstorage', () => {
+    const currentLength = tasks.length + 3;
+    expect(removeTask(tasks, 4).length).toBe(currentLength - 3);
+  });
+})
