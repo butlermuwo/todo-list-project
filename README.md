@@ -30,7 +30,7 @@ cd todo-list-project in the terminal.
 
 
 ## Project Status
-This project is still in progress.
+This project has been  finished and deployed.
 
 ## Screenshoots
 ![screenshot (42)](https://github.com/butlermuwo/todo-list-project/blob/testing-todo-list1/screenshot/todo-list-project.png)
