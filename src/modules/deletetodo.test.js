@@ -1,29 +1,29 @@
-const removeTask = require('./deletetodo')
+const removeTask = require('./deletetodo.js');
 
 const tasks = [
-    {
-      description: 'Hello',
-      completed: false,
-      index: 0,
-    },
-    {
-        description: 'Hello',
-        completed: false,
-        index: 1,
-      },
-      {
-        description: 'Hello',
-        completed: false,
-        index: 2,
-      },
-      {
-        description: 'Hello',
-        completed: false,
-        index: 3,
-      },
-  ];
+  {
+    description: 'Hello',
+    completed: false,
+    index: 0,
+  },
+  {
+    description: 'Hello',
+    completed: false,
+    index: 1,
+  },
+  {
+    description: 'Hello',
+    completed: false,
+    index: 2,
+  },
+  {
+    description: 'Hello',
+    completed: false,
+    index: 3,
+  },
+];
 
-  document.body.innerHTML = `<main>
+document.body.innerHTML = `<main>
 <div class="head">
   <h2>Today's To Do</h2>
   <span class="material-icons">autorenew</span>
@@ -45,9 +45,9 @@ const tasks = [
 </div>
 <div class="clear">Clear all completed</div>
 </main>`;
-  
+
 describe('testing remove function', () => {
-    test('Should delete item from localstorage', () => {
+  test('Should delete item from localstorage', () => {
     const currentLength = tasks.length;
     expect(removeTask(tasks, 0).length).toBe(currentLength - 1);
   });
@@ -56,4 +56,4 @@ describe('testing remove function', () => {
     const currentLength = tasks.length + 3;
     expect(removeTask(tasks, 4).length).toBe(currentLength - 3);
   });
-})
+});
