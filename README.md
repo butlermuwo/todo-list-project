@@ -58,7 +58,7 @@ https://github.com/butlermuwo/todo-list-project/issues
 - LinkedIn: [@ButlerMuwo](https://www.linkedin.com/in/butler-shimaluwani-41a680159/)
 - GitHub: [@olawalecoder](https://github.com/olawalecoder)
 - Twitter: [@olawalecoder](https://twitter.com/olawalecoder)
-- LinkedIn: [@olawalecoder](https://www.linkedin.com/in/butler-shimaluwani-41a680159/))
+- LinkedIn: [@olawalecoder](https://www.linkedin.com/in/butler-shimaluwani-41a680159/)
 - GitHub: [@zairdon20](https://github.com/zairdon20)
 - Twitter: [@Josphatnkonde1](https://twitter.com/Josphatnkonde1)
 - LinkedIn: [@Josphatnkonde](https://www.linkedin.com/in/josphat-nkonde-092510183/)
